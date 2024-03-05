@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+header{
+    background-color: cornflowerblue ;
+    height: 10vh;
+    padding: 20px;
+    
+}
+
+footer{
+    background-color: cornflowerblue ;
+    height: 10vh;
+    padding: 20px;
+}
+#main{
+    display: flex;
+}
+
+#main nav{
+    height: 60vh;
+    flex: 0 0 20vw;
+    background-color: aquamarine;
+    padding: 20px;
+} 
+
+#main aside{
+    height: 60vh;
+    flex: 0 0 20vw;
+    background-color: rgb(239, 121, 250) ;
+    padding: 20px;
+}
+
+#main article{
+    flex: 1;
+    padding: 20px;
+}

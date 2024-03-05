@@ -1,0 +1,43 @@
+body{
+    background-color:hotpink;
+}
+
+.box1{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.header{
+    background-color: cadetblue ;
+    height: 100px;
+}
+
+.footer{
+    background-color: cadetblue;
+    height: 100px;
+    order: 4;
+}
+
+.main{
+    text-align: justify;
+    background-color: firebrick;
+    height: 500px;
+    object-fit: cover;
+    flex: 3;
+    order: 4;
+}
+
+.main p{
+    display: flex;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+}
+
+.aside{
+    background-color: darkcyan;
+}
+
